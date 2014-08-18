@@ -1,0 +1,104 @@
+/**/
+
+body{
+    width: 1170px;
+    margin-left: 105px;
+}
+
+.header{
+    width: 1170px;
+    height: 135px;
+    border: 1px solid #bbbbbb;
+    background: #bbbbbb;
+}
+
+.top-containner{
+    margin-top: 10px;
+    height: 50px;
+    border: 1px solid #bbbbbb;
+    clear: both;
+}
+
+.colleft{
+    margin: 0px;
+    width: 300px;
+    margin-top: 30px;
+    float: left;
+    height: 100%;
+}
+
+#menu_left{
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+#menu_left > ul{
+    color: #78769e;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+}
+
+#menu_left > ul > li:hover{
+    color: red;
+}
+
+.sep-v{
+    border-top:  1px solid #bbbbbb;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#title{
+    text-align: center;
+    border-bottom: 1px solid #bbbbbb;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 15px;
+    height: 50px;
+    color: #ffffff;
+    background: #3a3a3a;
+}
+
+.colright{
+    margin: 0px;
+    width:  830px;
+    margin-top: 30px;
+    margin-left: 35px;
+    float: right;
+    min-height: 300px;
+}
+
+#slider{
+    width: 830px;
+    height: 305px;
+    border:  1px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+
+.banner{
+    margin-top: 30px;
+    clear: both;
+}
+
+.banner > ul{
+    list-style: none;
+    display: inline;
+}
+
+.banner > ul > li{
+    float: left;
+    border: 1px solid #bbbbbb;
+    width: 250px;
+    margin-right: 10px;
+}
+
+
+    
+#new_pro{
+    border: 1px solid #bbbbbb;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}

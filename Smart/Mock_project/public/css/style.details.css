@@ -1,0 +1,228 @@
+#wrapper{
+    width:500px;
+	text-align:left;
+    float: left;
+    margin-bottom: 36px;
+    margin-top: 20px;
+ }
+
+.clearfix{
+	clear:both;
+	float:none;
+}
+
+#bigPic{
+	width:250px;
+	height:250px;
+    margin-left: 120px;
+	border:1px solid #CCC;
+	background-color:#FFF;
+}
+
+#bigPic > img{
+    min-width: 252px;
+    min-height: 252px;
+	position:absolute;
+    display: none;
+	
+}
+
+ul#thumbs li.active{
+	border:2px solid #000;	
+	background:#fff;
+	padding:2px;
+}
+
+ul#thumbs {
+    margin-top: 50px;
+    margin-left: 120px;
+	padding:0;
+	list-style:none;
+}
+
+ul#thumbs li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+	
+ul#thumbs li{
+	float:left;
+	margin-right:7px;
+	margin-bottom:5px;
+	border:1px solid #CCC;	
+	padding:3px;
+	cursor:pointer;
+}
+ul#thumbs img{
+	float:left;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;		
+}
+
+#content_pro{
+    float: left;
+    margin-left: 30px;
+    width: 300px;
+    height: 250px;
+}
+
+div#content{
+    float: left;
+    max-width: 350px;
+}
+
+
+#detail{
+    clear: both;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+table{
+    min-width: 400px;
+    border-collapse: collapse;
+}
+
+
+.detail_table td{
+    padding: 15px;
+    line-height: 30px;
+}
+
+
+
+#comment{
+    padding:  50px;
+    font-size: 16px;
+}
+
+
+form{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+label{
+    float: left;
+    width: 80px;
+    margin-top: 10px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+span.error{
+    color: red;
+}
+
+#post_cmt {
+    width: 600px;
+    margin-top: 20px;
+}
+
+#post_cmt > span{
+    margin-left: 80px;
+    font-size: 16px;
+}
+
+#post_cmt > span > a{
+    color: blue;
+}
+
+#post_cmt > span > a:hover{
+    color: red;
+}
+
+#post_cmt > input{
+    width: 50px;
+    height: 30px;
+}
+
+#post_cmt > input:hover{
+    background:  #e6edf7;
+}
+
+#cmt {
+    margin-bottom: 10px;
+}
+
+.avatar{
+    float: left;
+}
+
+#cmt {
+    float: left;
+    margin-left: 30px;
+}
+
+textarea{
+    width: 500px;
+    height: 50px;
+}
+
+#send {
+    float: right;
+    clear: both;
+}
+
+#display{
+    clear: both;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.display_cmt{
+    width: 600px;
+    margin-top: 50px;
+}
+
+div.comment_content > div.name{
+    font-size: 18px;
+}
+
+div.comment_content > div.rate{
+    float: left;
+    width: 115px;
+}
+
+div.comment_content > div.vote{
+    width: 115px;
+}
+
+div.comment_content > div.title{
+    float: left;
+}
+
+div.comment_content > div.time{
+    float: right;
+}
+
+div.comment_content > div.content_cmt{
+    clear: both;
+}
+
+.comment_content{
+    font-size: 14px;
+    margin-left: 60px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    background: #e6edf7;
+}
+
+div.comment_content > div.title{
+    font-weight: bold;
+    font-size: 16px;
+    background: #e6edf7;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
